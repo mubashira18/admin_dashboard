@@ -1,0 +1,130 @@
+.cont {
+  display: flex;
+}
+.container {
+  width: 588px;
+  height: 100vh;
+  gap: 0px;
+  opacity: 0px;
+  background: #000000;
+}
+
+.board {
+  width: 246px;
+  height: 88px;
+  position: absolute; /* Use absolute positioning to position the board inside the container */
+  top: 300px;
+  left: 171px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87.77px;
+  text-align: left;
+  /* background: #ffffff; */
+  color: white;
+}
+.right-side {
+  width: 940px;
+  height: 100vh;
+  left: 88px;
+  background: #f5f5f5;
+}
+.sign-in-text {
+  width: 131px;
+  height: 44px;
+  position: absolute;
+  top: 160px;
+  left: 832px;
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.88px;
+  text-align: left;
+  color: black;
+}
+.subtext {
+  width: 161px;
+  height: 19px;
+  position: absolute;
+  top: 209px;
+  left: 832px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+}
+.button {
+  width: 180px;
+  height: 30px;
+  position: absolute;
+  top: 254px;
+  left: 832px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button:nth-of-type(2) {
+  left: 832px;
+}
+.login-form {
+  width: 385px;
+  height: 356px;
+  position: absolute;
+  top: 309px;
+  left: 832px;
+  border: 1px solid #999999;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.input-label {
+  width: 96px;
+  height: 19px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  margin-bottom: 10px;
+  display: block;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #999999;
+}
+.forgot-password {
+  width: 124px;
+  height: 19px;
+  position: absolute;
+  top: 517px;
+  left: 863px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: #346bd4;
+  cursor: pointer;
+}
+.sign-in-button {
+  width: 325px;
+  height: 40px;
+  position: absolute;
+  top: 556px;
+  left: 862px;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
